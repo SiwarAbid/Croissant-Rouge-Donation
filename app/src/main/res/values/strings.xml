@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CreoissantRouge</string>
+    <string name="btcnx">Sign In</string>
+    <string name="btcmp">Sign Up</string>
+
+
 </resources>
