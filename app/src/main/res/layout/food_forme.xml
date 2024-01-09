@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/type_food">
+
+    <Button
+        android:id="@+id/btn_fruit"
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="308dp"
+        android:background="#00FFFFFF"
+        android:text="Fruit and Vegetable"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_water"
+        android:layout_width="102dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="460dp"
+        android:background="#00FFFFFF"
+        android:text="Water"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_liquid"
+        android:layout_width="89dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="460dp"
+        android:background="#00FFFFFF"
+        android:text="Liquid foods"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_packaged"
+        android:layout_width="116dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="320dp"
+        android:background="#00FFFFFF"
+        android:text="Packaged foods"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_don_food"
+        android:layout_width="201dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="548dp"
+        android:backgroundTint="#FFFFFF"
+        android:shadowColor="@color/black"
+        android:shadowRadius="2.5"
+        android:text="I make a donation"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="89dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="684dp"
+        android:background="#00FFFFFF"
+        android:text="Home"
+        android:textColor="#F0022D"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="105dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="684dp"
+        android:background="#00FFFFFF"
+        android:text="Search"
+        android:textColor="#F0022D"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="89dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="684dp"
+        android:background="#00FFFFFF"
+        android:text="Menu"
+        android:textColor="#F0022D"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
